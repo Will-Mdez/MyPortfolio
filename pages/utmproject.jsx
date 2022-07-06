@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import tierradelsolIMG from '../public/assets/projects/tierradelsol.png';
+import utmprojectIMG from '../public/assets/projects/utmProject.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
