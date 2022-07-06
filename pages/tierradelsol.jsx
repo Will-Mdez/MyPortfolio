@@ -30,7 +30,7 @@ const tierradelsol = () => {
           This application is developed 100% in java with NetBeans IDE while we used an agile methodology to develop it. Using the resources seen in class,
            we developed an app similar to rappi where sellers can upload products so that customers can buy them, in addition to having a delivery 
            section where people can register to serve as delivery people and charge for this service.
-           An app designed to work in the Huajuapan de Leon municipality and the government of this city can provide this service to the city's markets.
+           An app designed to work in the Huajuapan de Leon municipality and the government of this city can provide this service to the city&apos;s markets.
           </p>
           <a
             href='https://github.com/orgs/UTMEquipo1/repositories'

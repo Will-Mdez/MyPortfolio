@@ -16,7 +16,7 @@ export const About = () => {
                 </p>
                 <p className='py-2 text-gray-600'> I have been speed the last 4 years Studing Computindg Engineer, 
                     and be building some projects in the school, like 
-                    User Interface, API's, Apps in Android Studio, some little projects 
+                    User Interface, API&apos;s, Apps in Android Studio, some little projects 
                     from IA, and something else.
                 </p>
                 <p className='py-2 text-gray-600 underline cursor-pointer'> You can Check my own Projects on my GH</p>
