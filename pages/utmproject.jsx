@@ -27,30 +27,27 @@ const utmproject = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this app to demonstrate knowledge working in React JS and
-            accessing API endpoints. This app was built using React JS and is
-            hosted on Firebase. This application supports user authentication
-            using firebase. Users are able to create a new account using their
-            email address and can then sign in to save coins to a user specific
-            list. This is made possble by creating a firestore cloud storage
-            database at the time of user registration. Another feature of this
-            application is dynamic routing through the &quot;React Router DOM&quot;
-            package. This application was built using the Coin Gecko API.
+          UMT Project is a project that we have worked on together with a University Professor on the subject of mobile devices.
+           This application developed in Kotlin with the use of a large number of resources and in addition to the use of an API for operation,
+            is a user control application (Professors) which will be used in the future at the Technological University of the Mixteca.
+             Where teachers can consult a large amount of information about their stay in the institution,
+           control of their articles, subjects, thesis students, events, etc.
+            
           </p>
           <a
-            href='https://github.com/fireclint/crypto-react-firebase'
+            href='https://github.com/LRMV-1/Dispositivos-Moviles'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
-          <a
+          {/* <a
             href='https://cryptobase-yt.web.app/'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4'>Demo</button>
-          </a>
+          </a> */}
 
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
