@@ -17,9 +17,9 @@ const Main = () => {
           </h1>
           <h1 className="py-2 text-gray-700">A Jr Developer</h1>
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
-            I am currently a student of the Computer Engineering career at the
-            Technological University of the Mixteca in Huajuapan de León,
-            Oaxaca.
+            Computer Engineer with experience in software development, 
+            artificial intelligence, and database management.
+            Passionate about technological innovation and tackling technical challenges.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
