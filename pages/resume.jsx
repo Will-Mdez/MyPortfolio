@@ -52,7 +52,7 @@ const resume = () => {
           development and artificial intelligence. My experience spans a wide
           range of programming languages, from Python and JavaScript to Java,
           Kotlin and C. I have worked on web and mobile application projects,
-          which has given me a solid understanding of today's most relevant
+          which has given me a solid understanding of today&apos;s most relevant
           technologies, like Next.js and TypeScript. My main goal is to create
           innovative and effective solutions that improve people's lives.
         </p>
