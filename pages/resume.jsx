@@ -54,7 +54,7 @@ const resume = () => {
           Kotlin and C. I have worked on web and mobile application projects,
           which has given me a solid understanding of today&apos;s most relevant
           technologies, like Next.js and TypeScript. My main goal is to create
-          innovative and effective solutions that improve people's lives.
+          innovative and effective solutions that improve people&apos;s lives.
         </p>
 
         {/* Skills */}
