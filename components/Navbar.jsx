@@ -128,11 +128,11 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              {/* <Link href='/resume'>
+              <Link href='/resume'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Resume
                 </li>
-              </Link> */}
+              </Link>
               <Link href='/#contact'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Contact
@@ -145,7 +145,7 @@ const Navbar = () => {
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a
-                  href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                  href='https://www.linkedin.com/in/william-mendez-9a6158209/overlay/contact-info/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -153,7 +153,7 @@ const Navbar = () => {
                     <FaLinkedinIn />
                   </div>
                 </a>
-                <a href='https://github.com/fireclint'
+                <a href='https://github.com/Will-Mdez'
                   target='_blank'
                   rel='noreferrer'>
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
