@@ -8,7 +8,9 @@ import twitchImg from '../public/assets/projects/twitch.jpg'
 import ProjectItem from './ProjectItem';
 import SGImg from '../public/assets/projects/JuegoIA.png';
 import carritoImg from '../public/assets/projects/carrito2.png';
+import PortfolioImg from '../public/assets/projects/Portfolio.png';
 import chatbotImg from '../public/assets/projects/chatbot.png';
+import PizzaAPIImg from '../public/assets/projects/PizzaAPI.png';
 import utmprojectIMG from '../public/assets/projects/utmProject.png';
 import tierradelsolIMG from '../public/assets/projects/tierradelsol.png';
 
@@ -26,6 +28,12 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8'>
           
           <ProjectItem
+            title='Pizza Delivery API'
+            backgroundImg={PizzaAPIImg}
+            projectUrl='/PizzaAPI'
+            tech='Fast API | Supabase'
+          />
+          <ProjectItem
             title='Vision Artificial Squid Game'
             backgroundImg={SGImg}
             projectUrl='/squidgame'
@@ -37,6 +45,12 @@ const Projects = () => {
             backgroundImg={utmprojectIMG}
             projectUrl='/utmproject'
             tech='Kotlin'
+          />
+          <ProjectItem
+            title='Portfolio'
+            backgroundImg={PortfolioImg}
+            projectUrl='/Portfolio'
+            tech='Next JS | Tailwind'
           />
           <ProjectItem
             title='Chatbot'

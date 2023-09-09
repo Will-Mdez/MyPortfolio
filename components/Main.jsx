@@ -6,7 +6,8 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Main = () => {
   return (
-    <div id="home" className="w-full h-screen text-center">
+    // <div id="home" className="w-screen h-screen text-center bg-[linear-gradient(to bottom,rgba(49,84,44,0.8),rgba(16,71,52,0.8)),url('../public/assets/Cali3.jpg')]"  >
+    <div id="home" className="w-full h-screen text-center"  >
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="uppercase text-sm tracking-widest text-gray-600">

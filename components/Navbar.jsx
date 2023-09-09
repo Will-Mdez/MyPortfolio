@@ -5,9 +5,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { useRouter } from 'next/router';
-import NavLogo from '../public/assets/navLogo.png'
 import Willlogo from '../public/logoWill.png'
-
 import Willlogo2 from '../public/willlogo2.png'
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -87,7 +85,7 @@ const Navbar = () => {
               <Link href='/'>
                 <a>
                   <Image
-                    src={NavLogo}
+                    src={Willlogo2}
                     width='87'
                     height='35'
                     alt='/'
