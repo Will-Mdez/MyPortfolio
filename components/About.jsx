@@ -10,7 +10,7 @@ export const About = () => {
                 <p className='uppercase text-xl tracking-widest text-[#5651e5] '>About</p>
                 <h2 className='py-4'>Who I am</h2>
                 <p className='py-2 text-gray-600' >I am not your normal developer</p>
-                <p className='py-2 text-gray-600'> I am a Computer Engineer, passionate about artificial intelligence and software development. 
+                <p className='py-2 text-gray-600'> A Computer Engineer, passionate about artificial intelligence and software development. 
                   I have demonstrated my ability to design and develop efficient web and mobile applications, reducing processing times and improving data management.
                   I have also participated in the team development of a Rappi-type sales software, contributing my skills in the design of the architecture and the implementation of key functionalities. 
                   I am always looking for new challenging and collaborative projects where I can apply my knowledge.
@@ -20,7 +20,7 @@ export const About = () => {
                     User Interface, API&apos;s, Apps in Android Studio, some little projects 
                     from IA, and something else.
                 </p>
-                <p className='py-2 text-gray-600 underline cursor-pointer'> You can Check my own Projects on my GH</p>
+                <p className='py-2 text-gray-600 underline cursor-pointer'> <a href="https://github.com/Will-Mdez">You can Check my own Projects on my GitHub</a></p>
             </div>
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
           <Image src={AboutImg} className='rounded-xl' alt='/' />
