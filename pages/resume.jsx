@@ -94,6 +94,24 @@ Collaboration in multidisciplinary teams to achieve common goals.
         </h5>
         {/* Experience */}
         <div className="py-6">
+           <p className="italic">
+            <span className="font-bold italic">CFE </span>
+            <span className="px-2">|</span>Oaxaca de Juarez, Oax. Mex.
+          </p>
+          <p className="py-1 italic">Mobile Application Developer and Systems Analyst (October 2023 - Present)</p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+              Creator of an application for daily meetings, reducing paper consumption and providing crucial information to workers.
+
+            </li>
+            <li>
+              Development of computer systems for managers, generating dashboards with key indicators at the national, zonal and cycle levels, identifying areas for improvement.
+
+            </li>
+            <li>Environmental Contribution and Business Efficiency: Innovation of digital solutions in CFE, improving processes and promoting sustainable practices.
+
+            </li>
+          </ul>
           <p className="italic">
             <span className="font-bold italic">Dynamicore</span>
             <span className="px-2">|</span>Ciudad de Mexico, MX
@@ -124,6 +142,7 @@ Collaboration in multidisciplinary teams to achieve common goals.
               </div>
             </li>
           </ul>
+          
         </div>
         {/* Experience */}
         <div className="py-6">
