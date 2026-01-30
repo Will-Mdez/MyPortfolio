@@ -9,7 +9,7 @@ const resume = () => {
         <title>Will | Resume</title>
         <meta
           name="description"
-          content="I’m a software developer specializing in building (and occasionally designing) exceptional digital experiences."
+          content="I'm a software developer specializing in building (and occasionally designing) exceptional digital experiences."
         />
         <link rel="icon" href="/fav.png" />
       </Head>
@@ -50,11 +50,12 @@ const resume = () => {
         <p>
           I am a passionate computer engineer with a strong focus on software
           development and artificial intelligence. My experience spans a wide
-          range of programming languages, from Python and JavaScript to Java,
-          Kotlin and C. I have worked on web and mobile application projects,
-          which has given me a solid understanding of today&apos;s most relevant
-          technologies, like Next.js and TypeScript. My main goal is to create
-          innovative and effective solutions that improve people&apos;s lives.
+          range of programming languages and technologies, including .NET, Java,
+          Python, JavaScript, and Kotlin. I have worked on enterprise-level 
+          applications, microservices architecture, and cloud platforms, which 
+          has given me a solid understanding of modern software development 
+          practices. My main goal is to create innovative and effective solutions 
+          that improve people&apos;s lives.
         </p>
 
         {/* Skills */}
@@ -62,29 +63,40 @@ const resume = () => {
           <h5 className="text-center underline text-[18px] py-2">Skills</h5>
           <p className="py-2">
             <span className="font-bold">Technical Skills</span>
-            <span className="px-2">|</span> Python
+            <span className="px-2">|</span> C#
             <span className="px-2">|</span> Java
+            <span className="px-2">|</span> Python
             <span className="px-2">|</span> Kotlin
-            <span className="px-2">|</span> SQL
-            <span className="px-2">|</span>Front-End Web Developer
-            <span className="px-2">|</span> HTML <span className="px-2">|</span>
-            CSS <span className="px-2">|</span>React
-            <span className="px-2">|</span>Tailwind
-            <span className="px-2">|</span> Firebase
+            <span className="px-2">|</span> JavaScript
+            <span className="px-2">|</span> TypeScript
+            <span className="px-2">|</span> Node.js
+            <span className="px-2">|</span> SQL Server
+            <span className="px-2">|</span> SAP HANA
+            <span className="px-2">|</span> React
+            <span className="px-2">|</span> Next.js
+            <span className="px-2">|</span> Angular
+            <span className="px-2">|</span> Tailwind CSS
           </p>
           <p>
             <ul>
               <li>
-              Expert use of Python libraries for artificial intelligence, including Scikit-learn and Keras.
+                Development of APIs and microservices using .NET and Java.
               </li>
               <li>
-              Creation of high-performance and easy-to-maintain web and mobile applications.
+                Experience with cloud platforms including AWS and SAP BTP.
               </li>
               <li>
-Query optimization and data storage to improve application performance.</li>
-            <li>
-Collaboration in multidisciplinary teams to achieve common goals.
-            </li>
+                Database design and optimization with SQL Server and SAP HANA.
+              </li>
+              <li>
+                Implementation of event-driven architectures using Kafka.
+              </li>
+              <li>
+                Code quality assurance and testing with SonarQube.
+              </li>
+              <li>
+                Collaboration in multidisciplinary teams to achieve common goals.
+              </li>
             </ul>
           </p>
         </div>
@@ -92,40 +104,99 @@ Collaboration in multidisciplinary teams to achieve common goals.
         <h5 className="text-center underline text-[18px] py-4">
           Professional Experience
         </h5>
-        {/* Experience */}
+        
+        {/* Experience - Grupo Salinas */}
         <div className="py-6">
-           <p className="italic">
-            <span className="font-bold italic">CFE </span>
-            <span className="px-2">|</span>Oaxaca de Juarez, Oax. Mex.
+          <p className="italic">
+            <span className="font-bold italic">Grupo Salinas</span>
+            <span className="px-2">|</span>Tlalpan, Ciudad de México
           </p>
-          <p className="py-1 italic">Mobile Application Developer and Systems Analyst (October 2023 - Present)</p>
+          <p className="py-1 italic">.NET, Java and Microservices Developer (May 2024 - Present)</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              Creator of an application for daily meetings, reducing paper consumption and providing crucial information to workers.
-
+              Development of APIs and microservices in .NET and Java for enterprise-level applications.
             </li>
             <li>
-              Development of computer systems for managers, generating dashboards with key indicators at the national, zonal and cycle levels, identifying areas for improvement.
-
+              Development of Kafka event consumers and producers in AWS for real-time data processing.
             </li>
-            <li>Environmental Contribution and Business Efficiency: Innovation of digital solutions in CFE, improving processes and promoting sustainable practices.
-
+            <li>
+              Development and integration of microservices on the SAP BTP platform (SAP Business Technology Platform).
+            </li>
+            <li>
+              Design, development, and management of databases using SQL Server and SAP HANA.
+            </li>
+            <li>
+              Implementation of APIs for expense and payment systems, including services with encryption algorithms.
+            </li>
+            <li>
+              Unit testing and functional testing to ensure code quality and reliability.
+            </li>
+            <li>
+              Development of stored procedures and triggers using SQL for complex business logic.
+            </li>
+            <li>
+              Code quality validation using SonarQube to maintain high standards.
             </li>
           </ul>
+        </div>
+
+        {/* Experience - CFE */}
+        <div className="py-6">
           <p className="italic">
-            <span className="font-bold italic">Dynamicore</span>
-            <span className="px-2">|</span>Ciudad de Mexico, MX
+            <span className="font-bold italic">Comisión Federal de Electricidad (CFE)</span>
+            <span className="px-2">|</span>Oaxaca, Oax., México
           </p>
-          <p className="py-1 italic">Front End (2022)</p>
+          <p className="py-1 italic">.NET Developer (November 2022 - May 2024)</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              My responsibilities primarily focused on frontend development,
-              where I worked with Next.js and TypeScript to create high-quality
-              user experiences. Additionally, I collaborated on backend
-              development, providing me with a comprehensive view of the
-              development cycle. I integrated sales and payment APIs to enhance
-              application functionality, resulting in a smoother and more
-              efficient user experience.
+              Requirements analysis and documentation for software projects, ensuring alignment with business needs.
+            </li>
+            <li>
+              Development of web reporting systems and user interfaces for internal management tools.
+            </li>
+            <li>
+              Development of native Android mobile applications from scratch for daily operations and field workers.
+            </li>
+            <li>
+              Created an application for daily meetings, reducing paper consumption and providing crucial information to workers.
+            </li>
+            <li>
+              Development of computer systems for managers, generating dashboards with key indicators at the national, zonal and cycle levels.
+            </li>
+            <li>
+              Technologies used: C#, Angular, TypeScript, SQL Server, Android Studio, Kotlin, Laravel, MVC.
+            </li>
+          </ul>
+        </div>
+
+        {/* Experience - Dynamicore */}
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">Dynamicore</span>
+            <span className="px-2">|</span>Remote
+          </p>
+          <p className="py-1 italic">.NET Developer (April 2021 - October 2022)</p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+              Development of modules for administrative systems using .NET and modern web frameworks.
+            </li>
+            <li>
+              Development and integration of APIs for sales and payments, enhancing application functionality.
+            </li>
+            <li>
+              Improvement of user experience (UX) in web applications using React and Next.js.
+            </li>
+            <li>
+              Frontend development with Next.js and TypeScript to create high-quality user experiences.
+            </li>
+            <li>
+              Collaboration on backend development, providing a comprehensive view of the development cycle.
+            </li>
+            <li>
+              Technologies used: C#, React, Next.js, Node.js, SQL Server, Tailwind CSS, MVC.
+            </li>
+            <li>
+              Projects:
               <div className="flex">
                 <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
                   <li>
@@ -142,16 +213,16 @@ Collaboration in multidisciplinary teams to achieve common goals.
               </div>
             </li>
           </ul>
-          
         </div>
-        {/* Experience */}
+
+        {/* University Projects */}
         <div className="py-6">
           <p className="italic">
             <span className="font-bold">University Projects</span>
-            <span className="px-2">|</span>Universidad Tecnologica de la
+            <span className="px-2">|</span>Universidad Tecnológica de la
             Mixteca, Oax, MX
           </p>
-          <p className="py-1 italic"> 2018 - 2023</p>
+          <p className="py-1 italic">2018 - 2023</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
               <span className="font-bold">
@@ -195,7 +266,6 @@ Collaboration in multidisciplinary teams to achieve common goals.
             </li>
           </ul>
         </div>
-        {/* Experience */}
       </div>
     </>
   );
